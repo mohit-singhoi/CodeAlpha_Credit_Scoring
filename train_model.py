@@ -6,7 +6,7 @@ from sklearn.metrics import accuracy_score
 import pickle
 
 # Load dataset
-df = pd.read_csv('data\Credit_Score.csv')
+df = pd.read_csv('data\Credit_Score_1.csv')
 df.columns = df.columns.str.strip()
 
 # Display available columns
